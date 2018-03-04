@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>3.4</version>
-    <date>2018-02-11T09:00:00Z</date>
+    <date>2018-03-04T02:14:08Z</date>
     <groups>
         <group>
             <name>Templates/Operating Systems</name>
@@ -11,8 +11,8 @@
         <template>
             <template>Template OS Linux - Plus</template>
             <name>Template OS Linux - Plus</name>
-            <description>Rev 0.9.0 New&#13;
-Need to place the user parameter file and agent file in  each agent  for linux.memory.master key.</description>
+            <description>Rev 0.9.0 New.&#13;
+Rev 1.0.0 Add folder usage graph prototype in host screen.</description>
             <groups>
                 <group>
                     <name>Templates/Operating Systems</name>
@@ -1049,6 +1049,28 @@ Need to place the user parameter file and agent file in  each agent  for linux.m
                             <sort_triggers>0</sort_triggers>
                             <resource>
                                 <name>Network traffic on {#IFNAME}</name>
+                                <host>Template OS Linux - Plus</host>
+                            </resource>
+                            <max_columns>2</max_columns>
+                            <application/>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>20</resourcetype>
+                            <width>300</width>
+                            <height>100</height>
+                            <x>2</x>
+                            <y>2</y>
+                            <colspan>2</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>1</valign>
+                            <halign>1</halign>
+                            <style>0</style>
+                            <url/>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <resource>
+                                <name>Disk space usage {#FSNAME} - history</name>
                                 <host>Template OS Linux - Plus</host>
                             </resource>
                             <max_columns>2</max_columns>
