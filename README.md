@@ -1,6 +1,6 @@
 # Zabbix_template_linux_OS-plus
 
-See in zabbix.share.com for details.  
+See in share.zabbix.com for details.  
 https://share.zabbix.com/operating-systems/linux/template-os-linux-plus  
 
 # Release note
