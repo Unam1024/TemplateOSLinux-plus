@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>3.4</version>
-    <date>2018-04-07T07:12:21Z</date>
+    <date>2018-04-07T07:30:40Z</date>
     <groups>
         <group>
             <name>Templates/Operating Systems</name>
@@ -11,9 +11,9 @@
         <template>
             <template>Template OS Linux - Plus</template>
             <name>Template OS Linux - Plus</name>
-            <description>Rev 1.0.0 New.&#13;
-Rev 1.0.1 Add folder usage graph prototype in host screen.&#13;
-Rev 1.0.2 Remove graph prototype from Host screen added in Rev1.0.1</description>
+            <description>Ver 1.0 New.&#13;
+Ver 1.1 Add folder usage graph prototype in host screen.&#13;
+Ver 1.2 Remove graph prototype from Host screen added in Ver 1.1</description>
             <groups>
                 <group>
                     <name>Templates/Operating Systems</name>
