@@ -4,7 +4,7 @@
     <date>2018-04-07T07:30:40Z</date>
     <groups>
         <group>
-            <name>Templates/Operating Systems</name>
+            <name>Templates/Operating systems</name>
         </group>
     </groups>
     <templates>
@@ -16,7 +16,7 @@ Ver 1.1 Add folder usage graph prototype in host screen.&#13;
 Ver 1.2 Remove graph prototype from Host screen added in Ver 1.1</description>
             <groups>
                 <group>
-                    <name>Templates/Operating Systems</name>
+                    <name>Templates/Operating systems</name>
                 </group>
             </groups>
             <applications>
